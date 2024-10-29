@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbUrl = 'mongodb://root:root123@localhost:27017/cloudArch';
+const dbUrl = 'mongodb://root:diego123@localhost:27017/graFiles';
 
 
 const connectDB = async () => {

@@ -1,0 +1,24 @@
+use ("graFiles")
+
+
+db.users.insertOne({
+  name: "John Doe",
+  email: "john.doe@example.com",
+  password: "123",
+  rol: "Administrador"
+})
+
+
+db.users.insertOne({
+  name: "Jane Doe",
+  email: "Jane@example.com",
+  password: "123",
+  rol: "Empleado"
+})
+
+db.users.insertOne({
+  name: "Julio Santos",
+  email: "julio@example.com",
+  password: "1234",
+  rol: "Empleado"
+})
