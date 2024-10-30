@@ -2,23 +2,23 @@ use ("graFiles")
 
 
 db.users.insertOne({
-  name: "John Doe",
-  email: "john.doe@example.com",
-  password: "123",
+  name: "Diego",
+  email: "diego@example.com",
+  password: "diego123",
   rol: "Administrador"
 })
 
 
 db.users.insertOne({
-  name: "Jane Doe",
-  email: "Jane@example.com",
-  password: "123",
+  name: "Jose",
+  email: "jose@example.com",
+  password: "jose123",
   rol: "Empleado"
 })
 
 db.users.insertOne({
-  name: "Julio Santos",
-  email: "julio@example.com",
-  password: "1234",
+  name: "Rebeca",
+  email: "rebeca@example.com",
+  password: "rebeca123",
   rol: "Empleado"
 })

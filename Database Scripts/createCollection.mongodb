@@ -73,6 +73,7 @@ db.createCollection("files", {
     }
   }
 })
+
 db.createCollection("trashes", {
   validator: {
     $jsonSchema: {
