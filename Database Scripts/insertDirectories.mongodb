@@ -1,0 +1,22 @@
+use ("graFiles")
+
+db.directories.insertMany([
+    {
+        "name": "Directorio Principal 1",
+        "user_id": ObjectId("ID_DE_USUARIO_DIEGO"),
+        "files": [],
+        "subdirectories": []
+    },
+    {
+        "name": "Directorio Principal 2",
+        "user_id": ObjectId("ID_DE_USUARIO_JOSE"),
+        "files": [],
+        "subdirectories": []
+    },
+    {
+        "name": "Directorio Principal 3",
+        "user_id": ObjectId("ID_DE_USUARIO_REBECA"),
+        "files": [],
+        "subdirectories": []
+    }
+]);

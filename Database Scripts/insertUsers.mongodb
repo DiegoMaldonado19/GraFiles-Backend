@@ -1,24 +1,23 @@
 use ("graFiles")
 
 
-db.users.insertOne({
-  name: "Diego",
-  email: "diego@example.com",
-  password: "diego123",
-  rol: "Administrador"
-})
-
-
-db.users.insertOne({
-  name: "Jose",
-  email: "jose@example.com",
-  password: "jose123",
-  rol: "Empleado"
-})
-
-db.users.insertOne({
-  name: "Rebeca",
-  email: "rebeca@example.com",
-  password: "rebeca123",
-  rol: "Empleado"
-})
+db.users.insertMany([
+    {
+        "name": "Diego",
+        "email": "diego@example.com",
+        "password": "diego123",
+        "rol": "Administrador"
+    },
+    {
+        "name": "Jose",
+        "email": "jose@example.com",
+        "password": "jose123",
+        "rol": "Empleado"
+    },
+    {
+        "name": "Rebeca",
+        "email": "rebeca@example.com",
+        "password": "rebeca123",
+        "rol": "Empleado"
+    }
+]);

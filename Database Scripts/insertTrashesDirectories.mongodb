@@ -1,0 +1,12 @@
+use ("graFiles")
+
+db.trashesdirectories.insertMany([
+    {
+        "directory_id": ObjectId("ID_DE_DIRECTORIO_1"),
+        "trashed_by": "diego@example.com"
+    },
+    {
+        "directory_id": ObjectId("ID_DE_DIRECTORIO_2"),
+        "trashed_by": "jose@example.com"
+    }
+]);

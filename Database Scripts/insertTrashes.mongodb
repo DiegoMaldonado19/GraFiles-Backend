@@ -1,0 +1,16 @@
+use ("graFiles")
+
+db.trashes.insertMany([
+    {
+        "filename": "documento_eliminado1",
+        "extension": "txt",
+        "user_id": ObjectId("ID_DE_USUARIO_DIEGO"),
+        "content": "Contenido del archivo eliminado"
+    },
+    {
+        "filename": "documento_eliminado2",
+        "extension": "txt",
+        "user_id": ObjectId("ID_DE_USUARIO_JOSE"),
+        "content": "Contenido del archivo eliminado"
+    }
+]);
