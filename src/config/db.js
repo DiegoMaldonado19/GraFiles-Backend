@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbUrl = 'mongodb://root:diego123@localhost:27017/graFiles';
+const dbUrl = 'mongodb://root:diego123@localhost:27017/graFiles?authSource=admin';
 
 
 const connectDB = async () => {
