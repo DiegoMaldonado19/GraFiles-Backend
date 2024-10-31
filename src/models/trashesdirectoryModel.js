@@ -11,11 +11,7 @@ const trashesdirectorySchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'User',
     required: true,
-  },
-  deletedAt: {
-    type: Date,
-    default: Date.now,
-  },
+  }
 });
 
 const TrashesDirectory = mongoose.model('TrashesDirectory', trashesdirectorySchema);
